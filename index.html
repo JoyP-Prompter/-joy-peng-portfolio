@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>彭鈺婷 Joy Peng | 希伯崙股份有限公司 數位發展部 AI應用規劃師</title>
+  <meta name="description" content="彭鈺婷 (Joy Peng) 的個人品牌網站。任職於希伯崙股份有限公司 (LiveABC) 數位發展部，擔任 AI 應用規劃師。以水藍色小清新的文青視角，融合教育科技、Generative AI 與企業數位轉型。">
+  <meta name="keywords" content="彭鈺婷, Joy Peng, AI應用規劃師, 希伯崙, LiveABC, 數位發展部, Generative AI, EdTech, Prompt Engineering, 語言學習 AI">
+  <meta name="author" content="彭鈺婷 Joy Peng">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="彭鈺婷 Joy Peng | AI應用規劃師 Portfolio">
+  <meta property="og:description" content="用溫暖的科技，轉化語言學習與數位創新。希伯崙股份有限公司 數位發展部 AI 應用規劃師。">
+  <meta property="og:image" content="assets/hero_art.jpg">
+
+  <!-- Fonts: Google Fonts (Noto Sans TC, Noto Serif TC, Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Light Soft Cyan Blobs background -->
+  <div class="ambient-background">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="brand-logo">
+        <span class="brand-sparkle"><i class="fa-solid fa-sparkles"></i></span>
+        <span class="brand-name">Joy Peng <small>‧ 彭鈺婷</small></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> 關於我</a></li>
+          <li><a href="#expertise" class="nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> 專業心法</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-cubes"></i> 代表專案</a></li>
+          <li><a href="#sandbox" class="nav-link"><i class="fa-solid fa-laptop-code"></i> AI 規劃沙盒</a></li>
+          <li><a href="#experience" class="nav-link"><i class="fa-regular fa-clock"></i> 歷程腳步</a></li>
+          <li><a href="#quotes" class="nav-link"><i class="fa-solid fa-feather-pointed"></i> 隨筆靈感</a></li>
+          <li><a href="#contact" class="nav-link nav-btn"><i class="fa-regular fa-paper-plane"></i> 聯絡我</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span>
+          <span>希伯崙股份有限公司 數位發展部 ‧ AI 應用規劃師</span>
+        </div>
+        <h1 class="hero-title">
+          以溫暖的<span class="text-highlight">文青視角</span>，<br>
+          為科技注入<span class="text-gradient">靈魂與價值</span>。
+        </h1>
+        <p class="hero-subtitle">
+          Hello, 我是<strong>彭鈺婷 Joy Peng</strong>。<br>
+          專注於 Generative AI 落地實踐、語言學習 (LiveABC Group) 智慧升級與企業數位轉型規劃。讓複雜的演算法，變成貼心、直覺且富有感溫的數位體驗。
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>探索代表專案</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#sandbox" class="btn btn-secondary">
+            <i class="fa-solid fa-play"></i>
+            <span>體驗 AI 規劃沙盒</span>
+          </a>
+          <button class="btn btn-ghost" id="open-chat-hero">
+            <i class="fa-regular fa-comments"></i>
+            <span>與 AI Joy 對話</span>
+          </button>
+        </div>
+
+        <!-- Metric highlights -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-target="3">3+</div>
+            <div class="stat-label">AI 應用規劃經驗</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="15">15+</div>
+            <div class="stat-label">EdTech & 流程專案</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-number">LiveABC</div>
+            <div class="stat-label">數位內容 AI 賦能</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-wrapper">
+          <div class="hero-glass-card">
+            <div class="avatar-ring">
+              <img src="assets/avatar.jpg" alt="彭鈺婷 Joy Peng" class="hero-avatar">
+              <span class="avatar-badge" title="AI Planning & Prompting Specialist"><i class="fa-solid fa-brain"></i></span>
+            </div>
+            <div class="profile-info">
+              <h3 class="profile-name">彭鈺婷 Joy Peng</h3>
+              <p class="profile-title">AI Application Planner</p>
+              <p class="profile-company"><i class="fa-solid fa-building"></i> 希伯崙股份有限公司 (LiveABC Group)</p>
+              <div class="tag-cloud">
+                <span class="tag">Generative AI</span>
+                <span class="tag">Prompt Architect</span>
+                <span class="tag">RAG 知識庫</span>
+                <span class="tag">EdTech 創新</span>
+              </div>
+            </div>
+            <div class="quote-mini">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p>「演算法再精密，也需要人的情感與洞察；Prompt 不只是指令，更是探索智慧的詩篇。」</p>
+            </div>
+          </div>
+
+          <!-- Floating decorative cards -->
+          <div class="floating-chip chip-1">
+            <i class="fa-solid fa-seedling"></i> 科技與人文交會
+          </div>
+          <div class="floating-chip chip-2">
+            <i class="fa-solid fa-lightbulb"></i> LiveABC AI 語境教練
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft wave separator -->
+    <div class="section-wave">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 36C240 70 480 87 720 53C960 19 1200 36 1440 53V120H0V36Z" fill="var(--bg-card)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Main Content Wrapper -->
+  <main>
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-regular fa-compass"></i> ABOUT JOY</span>
+          <h2 class="section-title">關於彭鈺婷 ‧ 數位發展的 AI 織夢者</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-card main-about">
+            <div class="about-icon-wrapper">
+              <i class="fa-solid fa-feather"></i>
+            </div>
+            <h3>文青風采 ╳ 數位創新</h3>
+            <p>
+              我是<strong>彭鈺婷 (Joy)</strong>，現任職於<strong>希伯崙股份有限公司 (LiveABC Group) 數位發展部</strong>，擔任 <strong>AI 應用規劃師</strong>。
+            </p>
+            <p>
+              在語言學習與數位出版的交匯點，我專注於將最前沿的 Generative AI、大型語言模型 (LLM) 與檢索增強生成 (RAG) 技術，巧妙揉合進實際的教育場景與企業工作流程中。
+            </p>
+            <p>
+              對我而言，AI 不應該是冰冷的自動化工具，而是能增強人類表達、激發學習渴望的「數位協同夥伴」。
+            </p>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-box glass-card">
+              <div class="feature-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="feature-content">
+                <h4>AI 產品架構與場景發想</h4>
+                <p>將繁複的業務痛點拆解為精準的 Prompt 工作流與 AI 模組設計，確保技術與需求完美契合。</p>
+              </div>
+            </div>
+
+            <div class="feature-box glass-card">
+              <div class="feature-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+              <div class="feature-content">
+                <h4>LiveABC 語言學習升級</h4>
+                <p>賦能經典英語教材與多媒體學習，打造即時語境對話、情境模擬與智慧寫作糾錯體驗。</p>
+              </div>
+            </div>
+
+            <div class="feature-box glass-card">
+              <div class="feature-icon"><i class="fa-solid fa-people-group"></i></div>
+              <div class="feature-content">
+                <h4>企業 GAI 賦能與推廣</h4>
+                <p>主導內部 Prompt 實戰工作坊，協助同仁建立 AI 思維，讓全公司轉型為 AI Native 團隊。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="section expertise-section" id="expertise">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-wand-magic-sparkles"></i> CORE SKILLS</span>
+          <h2 class="section-title">專業地圖 ‧ 智慧應用的四維光譜</h2>
+          <p class="section-description">從核心演算法邏輯到人文介面體驗，搭建科技與使用者之間的溫柔橋樑。</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="expertise-grid">
+          <!-- Card 1 -->
+          <div class="expertise-card glass-card">
+            <div class="card-corner-icon"><i class="fa-solid fa-microchip"></i></div>
+            <div class="exp-number">01</div>
+            <h3 class="exp-title">Generative AI 應用落地規劃</h3>
+            <ul class="exp-list">
+              <li><i class="fa-solid fa-check"></i> LLM 商業應用與可行性評估</li>
+              <li><i class="fa-solid fa-check"></i> Prompt 工程與系統指令設計 (System Prompt)</li>
+              <li><i class="fa-solid fa-check"></i> RAG 知識庫架構與文本切分策略 (Chunking)</li>
+              <li><i class="fa-solid fa-check"></i> Guardrails 安全屏障與品質幻覺控制</li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="expertise-card glass-card">
+            <div class="card-corner-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="exp-number">02</div>
+            <h3 class="exp-title">EdTech 語言教育科技創新</h3>
+            <ul class="exp-list">
+              <li><i class="fa-solid fa-check"></i> LiveABC 英語口說對話情境設計</li>
+              <li><i class="fa-solid fa-check"></i> 多層級英檢自動命題與反饋機制</li>
+              <li><i class="fa-solid fa-check"></i> 個人化學習診斷與適性化 Prompt 模組</li>
+              <li><i class="fa-solid fa-check"></i> 數位雙語教學輔助工具研發</li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="expertise-card glass-card">
+            <div class="card-corner-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="exp-number">03</div>
+            <h3 class="exp-title">企業流程自動化與轉型</h3>
+            <ul class="exp-list">
+              <li><i class="fa-solid fa-check"></i> 跨部門工作流自動化 (AI Workflow)</li>
+              <li><i class="fa-solid fa-check"></i> 企業內部 GAI 工具箱與資源庫建立</li>
+              <li><i class="fa-solid fa-check"></i> AI 實戰培訓課程與內部工作坊規劃</li>
+              <li><i class="fa-solid fa-check"></i> 知識資產結構化與數位化管理</li>
+            </ul>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="expertise-card glass-card">
+            <div class="card-corner-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="exp-number">04</div>
+            <h3 class="exp-title">UX 體驗設計與效益指標</h3>
+            <ul class="exp-list">
+              <li><i class="fa-solid fa-check"></i> 人機互動 (HCI) 介面與對話體驗設計</li>
+              <li><i class="fa-solid fa-check"></i> 敏捷開發團隊 (RD / Product / Edit) 溝通協調</li>
+              <li><i class="fa-solid fa-check"></i> AI 輸出品質評估矩陣 (Eval Benchmark)</li>
+              <li><i class="fa-solid fa-check"></i> 用戶反饋數據追蹤與疊代優化</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interactive Skill Radar / Tech Pills -->
+        <div class="tech-stack-box glass-card margin-top-lg">
+          <h4><i class="fa-solid fa-tags"></i> Joy 的日常實踐工具與領域標籤</h4>
+          <div class="pills-wrapper">
+            <span class="skill-pill"><i class="fa-solid fa-robot"></i> ChatGPT / Claude / Gemini API</span>
+            <span class="skill-pill"><i class="fa-solid fa-code-branch"></i> Prompt Engineering</span>
+            <span class="skill-pill"><i class="fa-solid fa-database"></i> RAG / Vector DB / Embeddings</span>
+            <span class="skill-pill"><i class="fa-solid fa-book"></i> LiveABC Digital Content</span>
+            <span class="skill-pill"><i class="fa-solid fa-gears"></i> Make / Zapier Workflow</span>
+            <span class="skill-pill"><i class="fa-solid fa-comments"></i> Conversational UX</span>
+            <span class="skill-pill"><i class="fa-solid fa-lightbulb"></i> Design Thinking</span>
+            <span class="skill-pill"><i class="fa-solid fa-chalkboard-user"></i> Enterprise AI Workshop</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Showcase Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-cubes"></i> SELECTED WORKS</span>
+          <h2 class="section-title">代表專案 ‧ AI 應用的溫暖實踐</h2>
+          <p class="section-description">點擊切換類別，了解彭鈺婷在希伯崙數位發展部的專案探索。</p>
+          <div class="title-line"></div>
+        </div>
+
+        <!-- Project Filters -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">全部 All</button>
+          <button class="filter-btn" data-filter="edtech">教育科技 EdTech</button>
+          <button class="filter-btn" data-filter="rag">RAG 智慧庫</button>
+          <button class="filter-btn" data-filter="workflow">流程自動化 Workflow</button>
+          <button class="filter-btn" data-filter="training">企業 AI 賦能</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass-card" data-category="edtech">
+            <div class="project-img-wrapper">
+              <img src="assets/ai_studio.jpg" alt="LiveABC AI 英語對話與寫作教練" class="project-img">
+              <span class="project-badge">EdTech 創新</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">希伯崙 ‧ 數位發展部專案</div>
+              <h3 class="project-title">LiveABC 智慧英語口說與寫作對話教練</h3>
+              <p class="project-desc">
+                結合 LLM 角色扮演與情緒引導，設計具備適性化反饋的英語對話機制。學生能以低焦慮方式進行情境對話，並獲得即時文法、字彙與道地表達建議。
+              </p>
+              <div class="project-tags">
+                <span>Prompt Architecture</span>
+                <span>Roleplay AI</span>
+                <span>LiveABC Content</span>
+              </div>
+              <button class="btn-link view-project-btn" data-modal="modal-p1">觀看架構細節 <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-card" data-category="rag">
+            <div class="project-img-wrapper">
+              <img src="assets/hero_art.jpg" alt="希伯崙數位內容 RAG 企業智慧庫" class="project-img">
+              <span class="project-badge">RAG 知識庫</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">希伯崙 ‧ 知識資產活化</div>
+              <h3 class="project-title">希伯崙數位出版內容 RAG 智慧知識庫</h3>
+              <p class="project-desc">
+                將希伯崙多年累積的豐富英語教學文本、雜誌與影音腳本結構化。透過語意檢索與 RAG 系統，協助編輯團隊在幾秒內調閱歷史優質題庫與解說。
+              </p>
+              <div class="project-tags">
+                <span>RAG Retrieval</span>
+                <span>Vector Embeddings</span>
+                <span>Editorial Efficiency</span>
+              </div>
+              <button class="btn-link view-project-btn" data-modal="modal-p2">觀看架構細節 <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glass-card" data-category="workflow">
+            <div class="project-img-wrapper">
+              <img src="assets/ai_studio.jpg" alt="自動化英檢題庫生成與 Guardrails 編審" class="project-img">
+              <span class="project-badge">流程自動化</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">AI 自動化題庫工程</div>
+              <h3 class="project-title">自動化英檢題庫生成與品質評估矩陣</h3>
+              <p class="project-desc">
+                設計幾何式 Prompt 樣板與 Guardrails 驗證機制，協助教學研發團隊快速生成多種類型的英語聽力與閱讀測試，編審時間縮短 50%。
+              </p>
+              <div class="project-tags">
+                <span>Structured Prompt</span>
+                <span>JSON Output Guard</span>
+                <span>Workflow Automation</span>
+              </div>
+              <button class="btn-link view-project-btn" data-modal="modal-p3">觀看架構細節 <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card glass-card" data-category="training">
+            <div class="project-img-wrapper">
+              <img src="assets/avatar.jpg" alt="GAI 跨部門推廣與企業 Prompt 工作坊" class="project-img">
+              <span class="project-badge">企業 AI 賦能</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">內部團隊培訓計畫</div>
+              <h3 class="project-title">希伯崙全方位 GAI 實戰培訓與 Prompt 教練</h3>
+              <p class="project-desc">
+                規劃系列實戰課程，針對行銷、編輯、IT 與行政部門量身打造 Prompt 工具包，推動公司整體 AI Native 文化的建立與實作。
+              </p>
+              <div class="project-tags">
+                <span>Enterprise Workshop</span>
+                <span>Prompt Toolkit</span>
+                <span>AI Culture</span>
+              </div>
+              <button class="btn-link view-project-btn" data-modal="modal-p4">觀看架構細節 <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive AI Sandbox Section -->
+    <section class="section sandbox-section" id="sandbox">
+      <div class="container">
+        <div class="sandbox-box glass-card">
+          <div class="sandbox-header">
+            <div class="sandbox-title-badge"><i class="fa-solid fa-laptop-code"></i> JOY'S AI LAB</div>
+            <h2>✨ AI 語境與 Prompt 規劃測試沙盒</h2>
+            <p>在這裡，體驗 Joy 如何將需求轉化為結構化的 AI Prompt 與互動流程。你可以選擇情境與文青風格，即時生成規劃雛型！</p>
+          </div>
+
+          <div class="sandbox-body">
+            <div class="sandbox-controls">
+              <div class="control-group">
+                <label for="sb-scenario"><i class="fa-solid fa-bullseye"></i> 選擇應用場景 (Application Scenario)：</label>
+                <select id="sb-scenario" class="custom-select">
+                  <option value="english_tutor"> LiveABC 英語口說角色扮演教練 (Language Coach)</option>
+                  <option value="content_editor"> 數位出版 AI 提煉與自動文案助手 (Content Assistant)</option>
+                  <option value="workflow_auto"> 企業內部跨部門 AI 工作流助理 (Enterprise Bot)</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="sb-tone"><i class="fa-solid fa-palette"></i> 選擇語調風格 (Tone & Persona)：</label>
+                <select id="sb-tone" class="custom-select">
+                  <option value="gentle_literary">水藍色溫柔文青風 (Gentle & Inspiring)</option>
+                  <option value="professional">嚴謹專業架構風 (Professional & Structured)</option>
+                  <option value="lively">活潑親切引導風 (Friendly & Dynamic)</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="sb-user-input"><i class="fa-solid fa-pen-line"></i> 輸入測試目標 (Target Goal)：</label>
+                <input type="text" id="sb-user-input" class="custom-input" value="協助一位英語中級學習者在商務咖啡廳輕鬆進行日常對話練習" placeholder="例如：幫行銷團隊提煉雜誌標題...">
+              </div>
+
+              <button class="btn btn-primary btn-block" id="generate-prompt-btn">
+                <i class="fa-solid fa-sparkles"></i> 立即生成 AI 應用規劃雛型 (Generate Blueprint)
+              </button>
+            </div>
+
+            <div class="sandbox-preview">
+              <div class="preview-tabs">
+                <button class="p-tab active" data-ptab="system-prompt"><i class="fa-solid fa-code"></i> System Prompt 設計</button>
+                <button class="p-tab" data-ptab="flow-arch"><i class="fa-solid fa-sitemap"></i> 互動流程架構</button>
+                <button class="p-tab" data-ptab="sim-response"><i class="fa-solid fa-comment-dots"></i> 模擬 AI 輸出預覽</button>
+              </div>
+
+              <div class="preview-content">
+                <div class="p-pane active" id="pane-system-prompt">
+                  <pre><code id="code-system-prompt">// 點擊上方按鈕，即時產生 Joy 設計的 System Prompt 雛型...</code></pre>
+                </div>
+                <div class="p-pane" id="pane-flow-arch">
+                  <div class="flow-diagram-box" id="flow-diagram-content">
+                    <!-- Dynamic Flow Chart generated via JS -->
+                  </div>
+                </div>
+                <div class="p-pane" id="pane-sim-response">
+                  <div class="ai-sim-chat" id="ai-sim-chat-box">
+                    <!-- Dynamic Chat message -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Timeline Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-regular fa-clock"></i> JOURNEY</span>
+          <h2 class="section-title">歷程與腳步 ‧ 數位轉型之路</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">2024 - Present</span>
+              <h3 class="timeline-role">AI 應用規劃師 (AI Application Planner)</h3>
+              <h4 class="timeline-company"><i class="fa-solid fa-building"></i> 希伯崙股份有限公司 (LiveABC Group) ‧ 數位發展部</h4>
+              <p class="timeline-text">
+                主導 LiveABC 數位教育產品之 Generative AI 應用孵化。負責 Prompt 工程、RAG 知識庫搭建規劃、自動化題庫機制設計，並開辦企業內部 GAI 實戰培訓。
+              </p>
+              <div class="timeline-highlights">
+                <span><i class="fa-solid fa-leaf"></i> LiveABC AI 語境教練專案</span>
+                <span><i class="fa-solid fa-leaf"></i> 數位出版 RAG 知識庫</span>
+                <span><i class="fa-solid fa-leaf"></i> 全公司 GAI 工作坊講師</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-laptop"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">2023 - 2024</span>
+              <h3 class="timeline-role">數位轉型與 EdTech 專案企劃</h3>
+              <h4 class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> 語言教育與數位內容領域</h4>
+              <p class="timeline-text">
+                深入研究 LLM 於語言學習情境之落地應用。設計互動式數位教材、對話式介面流程，溝通跨領域開發團隊與內容編輯。
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-lightbulb"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">2022 - 2023</span>
+              <h3 class="timeline-role">數位產品 UX 規劃與內容行銷</h3>
+              <h4 class="timeline-company"><i class="fa-solid fa-pen-nib"></i> 數位媒體與創新專案</h4>
+              <p class="timeline-text">
+                專注於使用者經驗研究、內容架構設計與數據驅動優化，累積敏捷產品開發與使用者需求的敏銳洞察。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Literary Quotes & Thought Section -->
+    <section class="section quotes-section" id="quotes">
+      <div class="container">
+        <div class="quotes-card glass-card text-center">
+          <div class="quote-badge"><i class="fa-solid fa-feather-pointed"></i> JOY'S THOUGHTS</div>
+          <h2 class="quote-heading">「文字是心靈的流動，AI 是思緒的放大鏡。」</h2>
+          <div class="quote-body" id="quote-display">
+            <p id="quote-text">
+              「在希伯崙數位發展部，我們每天處理許多演算法與模型。但最重要的，永遠是使用者眼神裡的點頭與喜悅。當技術變得隱形，溫暖與學習的樂趣才會展現出來。」
+            </p>
+            <span class="quote-author" id="quote-author">—— 彭鈺婷 Joy Peng 隨筆</span>
+          </div>
+          <div class="quote-actions">
+            <button class="btn btn-secondary" id="next-quote-btn">
+              <i class="fa-solid fa-rotate"></i> 切換另一則文青靈感
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-regular fa-paper-plane"></i> GET IN TOUCH</span>
+          <h2 class="section-title">聯絡彭鈺婷 ‧ 交流與專案合作</h2>
+          <p class="section-description">無論是 AI 應用規劃諮詢、LiveABC 教育科技合作或企業工作坊邀約，歡迎隨時與我連繫。</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info Box -->
+          <div class="contact-info-card glass-card">
+            <h3><i class="fa-solid fa-heart"></i> 讓科技與人文攜手</h3>
+            <p>感謝你光臨我的個人空間。期待一起探討 Generative AI 在教育、企業流程與數位內容上的無窮可能。</p>
+
+            <div class="info-details">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-user"></i></div>
+                <div>
+                  <strong>姓名 Name</strong>
+                  <p>彭鈺婷 Joy Peng</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div>
+                  <strong>職稱 Title</strong>
+                  <p>AI 應用規劃師 (AI Application Planner)</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-building"></i></div>
+                <div>
+                  <strong>任職單位 Company</strong>
+                  <p>希伯崙股份有限公司 (LiveABC Group) 數位發展部</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>工作地點 Location</strong>
+                  <p>台灣 台北市 (Taipei, Taiwan)</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                  <strong>公務與專案信箱 Email</strong>
+                  <p><a href="mailto:joy.peng@hebron.com.tw" class="link-cyan">joy.peng@hebron.com.tw</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-icon" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="mailto:joy.peng@hebron.com.tw" class="social-icon" title="Email" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </div>
+
+          <!-- Right Contact Form -->
+          <div class="contact-form-card glass-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">您的姓名 / Name *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="例如：王小明" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">您的電子信箱 / Email *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="name@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">主題 / Subject</label>
+                <select id="contact-subject" class="form-input">
+                  <option value="ai_planning">AI 應用規劃與專案合作諮詢</option>
+                  <option value="edtech">LiveABC 數位教育科技交流</option>
+                  <option value="workshop">企業 GAI 工作坊 / 講座邀約</option>
+                  <option value="other">其他交流與問候</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">留言內容 / Message *</label>
+                <textarea id="contact-message" class="form-input" rows="4" placeholder="請描述您的需求或想聊聊的想法..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>傳送訊息給 Joy</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container text-center">
+      <div class="footer-logo">Joy Peng ‧ 彭鈺婷</div>
+      <p class="footer-subtext">希伯崙股份有限公司 (LiveABC Group) 數位發展部 ‧ AI 應用規劃師</p>
+      <p class="copyright">© 2026 Joy Peng. All Rights Reserved. Crafted with <i class="fa-solid fa-heart text-cyan"></i> & AI elegance.</p>
+    </div>
+  </footer>
+
+  <!-- Interactive AI Joy Chat Widget -->
+  <div class="chat-widget-wrapper" id="chat-widget-wrapper">
+    <!-- Bubble Toggle -->
+    <button class="chat-bubble-btn" id="chat-bubble-btn" aria-label="Open AI Assistant">
+      <div class="avatar-mini">
+        <img src="assets/avatar.jpg" alt="Joy Avatar">
+      </div>
+      <span class="chat-bubble-label"><i class="fa-solid fa-sparkles"></i> 問問 AI Joy</span>
+    </button>
+
+    <!-- Chat Modal Window -->
+    <div class="chat-window glass-card" id="chat-window">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <img src="assets/avatar.jpg" alt="Joy" class="chat-avatar">
+          <div>
+            <strong>AI Joy 數位分身助理</strong>
+            <small><span class="online-dot"></span> 希伯崙 AI 規劃師問答中</small>
+          </div>
+        </div>
+        <button class="chat-close-btn" id="chat-close-btn">&times;</button>
+      </div>
+
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-msg msg-ai">
+          <div class="msg-content">
+            你好呀！我是<strong>彭鈺婷 Joy Peng</strong> 的 AI 數位分身 ✨<br>
+            很高興遇見你！想了解 Joy 在希伯崙數位發展部的 AI 專案、Prompt 規劃心法，或是專案合作方式嗎？
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick suggest chips -->
+      <div class="quick-chips" id="quick-chips">
+        <button class="chip-btn" data-q="請問 Joy 在希伯崙主要負責哪些 AI 專案？">希伯崙 AI 專案？</button>
+        <button class="chip-btn" data-q="Joy 的 AI 應用規劃心法是什麼？">AI 規劃心法？</button>
+        <button class="chip-btn" data-q="如何邀請 Joy 進行企業 AI 培訓或講座？">講座與工作坊邀請？</button>
+      </div>
+
+      <form class="chat-input-area" id="chat-form">
+        <input type="text" id="chat-input" placeholder="輸入你想問 Joy 的問題..." autocomplete="off">
+        <button type="submit" class="chat-send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-card glass-card">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-body" id="modal-body">
+        <!-- Content inserted dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
